@@ -3,6 +3,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@mui/*": ["./node_modules/@mui/*"],
+      "@mui/icons-material/*": ["./node_modules/@mui/icons-material/*"]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

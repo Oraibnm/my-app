@@ -1,0 +1,11 @@
+.mat-toolbar {
+    background-color: #140f1f;
+    font-family: sans-serif;
+    color: azure; /* Replace with your desired color */
+  }
+  .spacer{
+    flex: 1 1  auto;
+  }
+  .buttonColor{
+    background-color: rgb(220, 220, 220);
+  }
